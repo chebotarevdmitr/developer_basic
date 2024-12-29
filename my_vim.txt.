@@ -1,0 +1,45 @@
+
+  Для изучения С++ я настроил vin 
+ делюсь своими настройками можеткому 
+будет интересно по идее должна получиться IDE
+ правда я ещё работать не научился
+
+   " Basic Settings
+  1 syntax on          " Включить подсветку синтаксиса
+  2 set number         " Включить нумерацию строк
+  3 set tabstop=4      " Установить ширину табуляции в 4 пробела
+  4 set shiftwidth=4   " Установить ширину отступов в 4 пробела
+  5 set expandtab      " Превращать табуляции в пробелы
+  6 set autoindent     " Автоматически делать отступы
+  7 set relativenumber " Включить относительные номера строк
+  8 set hlsearch       " Подсвечивать результаты поиска
+  9 set incsearch      " Интерактивный поиск
+ 10 set cindent        " Включить отступы для кода на C/C++
+ 11 set smartindent    " Умные отступы
+ 12 filetype plugin on " Включить плагины для типов файлов
+ 13 filetype indent on " Включить отступы для типов файлов
+ 14 
+ 15 " Additional Settings
+ 16 set ls=2                  " Показывать имя файла в строке состояния
+ 17 set ignorecase            " Игнорировать заглавные буквы при поиске
+ 18 set noswapfile            " Отключить создание .swap файлов
+ 19 set background=dark       " Темная или светлая тема
+ 20 set textwidth=80          " Максимальная длина строки 80 символов
+ 21 set encoding=utf-8        " Установить кодировку в UTF-8
+ 22 
+ 23 " Plugin Settings
+ 24 call plug#begin('~/.vim/plugged')
+ 25
+ 26 " Пример плагинов для C++
+ 27 Plug 'dense-analysis/ale'       " Asynchronous Lint Engine для проверки кода
+ 28 Plug 'ycm-core/YouCompleteMe'   " Автодополнение кода
+ 29 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+ 30 Plug 'ntpeters/vim-better-whitespace'
+ 31 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+ 32 Plug 'junegunn/fzf.vim'
+ 33 Plug 'iberianpig/tig-explorer.vim'
+ 34 
+ 35 call plug#end()
+
+может когда нибудь и я научусь программировать в vim и даже на С++ . =)
+
